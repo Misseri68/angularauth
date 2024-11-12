@@ -1,0 +1,11 @@
+<form #loginForm="ngForm">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" #cajanombre placeholder="Nombre">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" #cajacontra placeholder="Password">
+    </div>
+    <button class="btn btn-primary" (click)="login()">Login</button>
+</form>
